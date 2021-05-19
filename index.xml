@@ -7,7 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Husna</copyright>
-    <lastBuildDate>Sun, 28 Mar 2021 21:32:02 +0700</lastBuildDate><atom:link href="https://husnaram.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 May 2021 11:22:50 +0700</lastBuildDate><atom:link href="https://husnaram.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Access USB Drive That Linux Booted From</title>
+      <link>https://husnaram.github.io/posts/how-to-access-usb-drive-that-linux-booted-from/</link>
+      <pubDate>Wed, 19 May 2021 11:22:50 +0700</pubDate>
+      
+      <guid>https://husnaram.github.io/posts/how-to-access-usb-drive-that-linux-booted-from/</guid>
+      <description>Been a long time ago i&amp;rsquo;m trying linux liveUSB, and the present i try it again.
+Intent of this act is grabing data from laptop without operating system. In my case i&amp;rsquo;m using (bunsenLabs)[https://www.bunsenlabs.org/], the debian based linux distro.
+I want to the data stored on USB drive that linux booted from. Here is the solution.
+Check where USB drive mounted
+lsblk
+But, usually liveUSB drive mounted on /lib/live/mount/medium
+Remount USB device</description>
+    </item>
+    
     <item>
       <title>Make Word Transform to Uppercase in First Char Each</title>
       <link>https://husnaram.github.io/posts/make-word-transform-to-uppercase-in-first-char-each/</link>
